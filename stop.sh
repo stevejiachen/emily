@@ -1,1 +1,1 @@
-killall node
+npm run stop
