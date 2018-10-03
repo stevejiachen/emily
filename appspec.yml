@@ -1,0 +1,15 @@
+version: 0.0
+os: linux
+files:
+ - source: /
+   destination: /
+hooks:
+  Install:
+    - location: server/setup.sh
+      timeout: 3600
+  ApplicationStart:
+    - location: server/start.sh
+      timeout: 3600
+  ApplicationStop:
+    - location: server/stop.sh
+      timeout: 3600
