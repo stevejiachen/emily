@@ -1,19 +1,23 @@
 {
-  "name": "server",
+  "name": "emily",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "engines": {
-    "node": "8.1.1",
-    "npm": "5.0.3"
-  },
   "scripts": {
     "start": "forever start index.js",
     "stop": "forever stopall",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevejiachen/emily.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevejiachen/emily/issues"
+  },
+  "homepage": "https://github.com/stevejiachen/emily#readme",
   "dependencies": {
     "express": "^4.16.3"
   }
