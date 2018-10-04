@@ -1,4 +1,5 @@
+#!/usr/bin/env bash
 yum -y install nodejs npm --enablerepo=epel
 cd server
 npm install
-npm install forever -g
+sudo npm install forever -g
