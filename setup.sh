@@ -1,2 +1,3 @@
-yum -y install nodejs npm --enablerepo=epel
+#!/usr/bin/env bash
 npm install
+sudo npm install forever -g
